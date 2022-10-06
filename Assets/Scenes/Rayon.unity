@@ -246,7 +246,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.15690637, g: 0.33713907, b: 0.8113208, a: 1}
+  m_Color: {r: 0.024029896, g: 0.5660378, b: 0.1464551, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -355,7 +355,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.2086658, g: 0.9716981, b: 0.12375401, a: 1}
+  m_Color: {r: 0.12549019, g: 0.21923184, b: 0.972549, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -394,7 +394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cible: {fileID: 1984221183}
   maxDistance: 5
-  masque:
+  masqueRayon:
     serializedVersion: 2
     m_Bits: 192
 --- !u!1 &731363352
