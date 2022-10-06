@@ -22,9 +22,6 @@ public class TestRaycast : MonoBehaviour
         Vector3 rayon = cible.position - transform.position;
         rayon.Normalize();
 
-
-         
-
         Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), rayon, maxDistance); // vecteur 2D
         // possible de juste utiliser transform.position, il va ignorer le Z
 
