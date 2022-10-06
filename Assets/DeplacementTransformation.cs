@@ -17,5 +17,6 @@ public class DeplacementTransformation : MonoBehaviour
     }
     void FixedUpdate()
     {
+        transform.position = (transform.position + new Vector3(3.0f * Time.fixedDeltaTime, -0.005f, 0.0f));
     }
 }

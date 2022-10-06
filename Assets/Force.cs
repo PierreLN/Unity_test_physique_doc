@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Force : MonoBehaviour
 {
+    private Rigidbody2D rig;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        rig = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -17,6 +19,6 @@ public class Force : MonoBehaviour
     }
     void FixedUpdate()
     {
-
+         rig.AddForce(new Vector2(5.0f, 0.0f));
     }
 }
