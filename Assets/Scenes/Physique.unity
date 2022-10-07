@@ -834,7 +834,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3eea86d52915c342af875f345407f78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rig: {fileID: 739224999}
 --- !u!222 &739224998
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -994,7 +993,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 837897d504dcf944c8b57e2e0d7640bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rig: {fileID: 798917495}
 --- !u!50 &798917495
 Rigidbody2D:
   serializedVersion: 4
@@ -2020,7 +2018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 096f506952c11d346afbdc786337fdbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rig: {fileID: 0}
 --- !u!50 &1614788906
 Rigidbody2D:
   serializedVersion: 4
